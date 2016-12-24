@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bundle Analysis</string>
+    <string name="goal">El objetivo de la aplicación es entender como se comportan los bundles que reciben los fragmentos tanto en su creación como en su recreación.\nPara recrear las actividades, gira la pantalla o activa la opción de no mantener actividades y simplemente manda la aplicación a segundo plano y de vuelta a primer plano.</string>
+    <string name="no_args_no_state">Sin argumentos, sin estado</string>
+    <string name="args_no_state">Argumentos, sin estado</string>
+    <string name="no_args_state">Sin argumentos, estado</string>
+    <string name="args_state">Argumentos y estado</string>
+    <string name="creation_wtf">Falta el argumento al crear, ¿qué co…?</string>
+    <string name="recreation_wtf">Falta el argumento al recrear, ¿qué co…?</string>
+    <string name="argument">Esto es un argumento</string>
+    <string name="state">Esto es el estado</string>
+    <string name="no_state">No hay estado</string>
+    <string name="empty_state">¡Hay estado, pero vacío!</string>
+    <string name="no_args">No hay argumentos</string>
+    <string name="empty_args">¡Hay argmuentos, pero vacíos!</string>
+</resources>
