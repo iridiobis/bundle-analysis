@@ -13,4 +13,6 @@
     <string name="empty_state">There is state, but empty!</string>
     <string name="no_args">There are no arguments</string>
     <string name="empty_args">There are arguments, but empty!</string>
+    <string name="go_to_settings">Go to settings</string>
+    <string name="settings_description">Revoke a granted permission to force the app to be recreated.</string>
 </resources>

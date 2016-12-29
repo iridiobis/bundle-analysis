@@ -2,6 +2,7 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
+              android:padding="@dimen/activity_horizontal_margin"
               android:orientation="vertical"
              tools:context="es.iridiobis.bundleanalysis.TestFragment">
 
@@ -19,5 +20,14 @@
         android:layout_weight="1"
         android:gravity="center"
         tools:text="State"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_description"/>
+    <Button
+        android:id="@+id/app_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_settings"/>
 
 </LinearLayout>

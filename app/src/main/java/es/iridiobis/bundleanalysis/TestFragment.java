@@ -2,7 +2,10 @@ package es.iridiobis.bundleanalysis;
 
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -12,6 +15,7 @@ import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public abstract class TestFragment extends Fragment {
 
@@ -61,5 +65,12 @@ public abstract class TestFragment extends Fragment {
         ButterKnife.bind(this, view);
         argumentsResult.setText(argument);
         stateResult.setText(state);
+    }
+
+    @OnClick(R.id.app_settings)
+    void goToSettings() {
+        final Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+        intent.setData(Uri.fromParts("package", getContext().getPackageName(), null));
+        getContext().startActivity(intent);
     }
 }

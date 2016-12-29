@@ -13,4 +13,6 @@
     <string name="empty_state">¡Hay estado, pero vacío!</string>
     <string name="no_args">No hay argumentos</string>
     <string name="empty_args">¡Hay argmuentos, pero vacíos!</string>
+    <string name="go_to_settings">Ir a Ajustes</string>
+    <string name="settings_description">Revoca un permiso para forzar el reinicio de la aplicación.</string>
 </resources>
